@@ -480,7 +480,7 @@ def play():
 		print("Current turn : " + str(cntr))
 
 		p1 = pick(p1_cards,1)
-		p2 = func(i, p2_cards, p1_cards, p1_score,p2_score,cntr,total)
+		p2 = pick(p2_cards,2)
 
 		p1_score, p2_score = check(p1,p2,draw,i,p1_score,p2_score,True)
 		cntr+=1
